@@ -1,1 +1,1 @@
-# stroika
+# stroyka
