@@ -1,8 +1,8 @@
 <template>
 
   <div class="home">
-    <img alt="logo" src="../assets/logo.svg" class="">
 
+<h1>Это Главная!</h1>
   </div>
 
 </template>
@@ -15,3 +15,7 @@ export default {
 };
 
 </script>
+
+<style>
+
+</style>

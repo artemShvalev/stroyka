@@ -1,9 +1,10 @@
 <template>
   <div id="nav">
+    <img src="@/assets/img/logo.svg" />
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <style lang="scss">

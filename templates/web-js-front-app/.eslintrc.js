@@ -10,10 +10,8 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint',
   },
-  "ignorePatterns": ["node_modules/**/*.js"],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-underscore-dangle': 'off',
   },
 };
